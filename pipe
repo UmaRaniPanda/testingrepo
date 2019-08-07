@@ -1,0 +1,5 @@
+node{
+    stage('welcome to my jenkins world'){
+    sh label: '', script: 'echo "Today date is `date`"'
+    }
+}
